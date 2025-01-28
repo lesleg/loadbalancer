@@ -186,7 +186,7 @@ resource "aws_lb_listener" "redirect_http_to_https" {
 
 # Route 53 Record for the Domain
 resource "aws_route53_record" "www" {
-  zone_id = "/hostedzone/Z00491332Q5KLLCJ1ELFX"
+  zone_id = "/hostedzone/Z01543521UV1GNGMCG4ER"
   name    = "andrewtest.lesleg.click"
   type    = "A"
 
